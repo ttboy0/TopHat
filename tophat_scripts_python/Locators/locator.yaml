@@ -1,0 +1,21 @@
+elements:
+  create_account:
+    locator: "a:has-text('Create Your Account')"
+    expected_text: "Create Your Account"
+    description: "Create Your Account button"
+  
+  in_class_engagement:
+    locator: "button:has-text('In-Class Engagement')"
+    expected_text: "In-Class Engagement"
+    description: "In-Class Engagement feature button"
+  
+  interactive_content:
+    locator: "button:has-text('Interactive Content')"
+    expected_text: "Interactive Content"
+    description: "Interactive Content feature button"
+  
+  ai_enhanced_tools:
+    locator: "button:has-text('AI-Enhanced Tools')"
+    expected_text: "AI-Enhanced Tools"
+    description: "AI-Enhanced Tools feature button"
+

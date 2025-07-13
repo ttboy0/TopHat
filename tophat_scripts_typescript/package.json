@@ -1,0 +1,32 @@
+{
+  "name": "tophat-playwright-typescript-automation",
+  "version": "1.0.0",
+  "description": "TypeScript Playwright automation scripts for TopHat website testing",
+  "main": "main_script.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node main_script.js",
+    "test": "npm run start",
+    "clean": "rm -f *.js *.js.map"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "testing",
+    "tophat"
+  ],
+  "author": "Automation Team",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.44.0",
+    "playwright": "^1.44.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/js-yaml": "^4.0.5"
+  }
+}
+
